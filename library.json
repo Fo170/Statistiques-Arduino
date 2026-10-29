@@ -1,0 +1,43 @@
+{
+  "name": "Statistiques",
+  "version": "1.0.0",
+  "description": "Statistiques et régressions pour l'embarqué : moyenne, variance, écart-type, médiane, MAD, min/max, covariance, corrélation, tri, et 9 modèles de régression (linéaire, log, exp, puissance, inverse, polynôme 2, évaluation, R²). Portage Arduino du projet Qt Fo170/Statistiques : float au lieu de double, tableaux STATIQUES de taille fixe, AUCUNE allocation dynamique, aucune dépendance hors Arduino.h et math.h.",
+  "keywords": [
+    "statistics",
+    "regression",
+    "median",
+    "mad",
+    "variance",
+    "correlation",
+    "polynomial",
+    "embedded",
+    "arduino",
+    "esp8266",
+    "esp32"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fo170/Statistiques-Arduino.git"
+  },
+  "authors": [
+    {
+      "name": "Olivier FOURNET",
+      "email": "olivier.fournet@free.fr",
+      "url": "https://github.com/Fo170",
+      "maintainer": true
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif8266",
+    "espressif32",
+    "atmelsam",
+    "teensy",
+    "ststm32",
+    "raspberrypi",
+    "atmelavr"
+  ],
+  "headers": "Statistiques.h",
+  "dependencies": {}
+}
